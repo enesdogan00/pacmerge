@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ~/.cache
+asp checkout $1
+cd $1/repos/core-x86_64
+makepkg -si
