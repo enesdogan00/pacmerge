@@ -6,6 +6,7 @@ Pacmerge is a source based package manager for Arch Linux. It uses asp and makep
 git clone https://github.com/enes4949/pacmerge.git
 cd pacmerge
 sudo cp pacmerge /usr/bin && sudo chmod 777 /usr/bin/pacmerge
+mkdir -p ~/.cache/pacmerge
 ```
 ## TODO
 - [ ] Install packages from source
