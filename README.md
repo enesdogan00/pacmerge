@@ -11,3 +11,4 @@ sudo cp pacmerge /usr/bin
 - [ ] Install packages from source
 - [ ] Auto-update
 - [ ] Automaticly pull GPG keys
+- [ ] Support for AUR packages
