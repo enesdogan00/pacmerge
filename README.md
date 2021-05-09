@@ -12,3 +12,10 @@ sudo cp pacmerge /usr/bin && sudo chmod 777 /usr/bin/pacmerge
 - [ ] Auto-update
 - [ ] Automaticly pull GPG keys
 - [ ] Support for AUR packages
+
+## FAQ
+### I'm getting FAILED (unknown public key ABCD123) error, how can I fix this?
+`gpg gpg --receive-keys ABCD123`
+
+### Why bother compiling when there are already pre-compiled binaries on the repos?
+It runs just a little faster when you [configure](https://wiki.archlinux.org/title/Makepkg#Building_optimized_binaries) your makepkg.
