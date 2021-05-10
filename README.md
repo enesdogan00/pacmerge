@@ -8,7 +8,7 @@ cd pacmerge
 make install
 ```
 ## TODO
-- [ ] Install packages from source
+- [X] Install packages from source
 - [ ] Auto-update
 - [ ] Automaticly pull GPG keys
 - [ ] Support for AUR packages
