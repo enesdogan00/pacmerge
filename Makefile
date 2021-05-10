@@ -1,3 +1,4 @@
 DIR=/usr/bin
 install:
-	install pacmerge $(DIR)
+	sudo install pacmerge $(DIR) || su -c "install pacmerge $(DIR)"
+	mkdir ~/.cache/pacmerge
