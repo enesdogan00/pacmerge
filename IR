@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ~/.cache/pacmerge
+asp checkout $1
+cd $1/repos/*
+makepkg -si
