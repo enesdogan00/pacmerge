@@ -4,7 +4,7 @@ CACHE_DIR="$HOME/.cache/pacmerge/"
 
 mkcdir() {
 	if [[ $# -eq 1 ]]; then
-		mkdir "$1" && cd "$1"
+		mkdir -p "$1" && cd "$1"
 	fi
 }
 
